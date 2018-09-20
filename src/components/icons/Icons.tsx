@@ -6,19 +6,6 @@ import SvgIcon from '@material-ui/core/SvgIcon'
 import './Icons.css';
 
 class Icons extends React.Component {
-  public state: { value: number };
-  
-  constructor(props: any) {
-    super(props);
-    this.state = {
-      value: 0,
-    }
-  }
-
-  public handleChange = (event: any, value: number): void => {
-    this.setState({ value });
-  };
-
   public render() {
     return (
       <div className="Icons">
