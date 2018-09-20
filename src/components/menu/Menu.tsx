@@ -15,7 +15,7 @@ class Menu extends React.Component {
         <AppBar position="static" >
           <Toolbar color="primary">
             <Typography align="left" variant="title" color="inherit" className="grow">
-              &lt;blank&gt;
+              nchursin.github.io
             </Typography>
             <div>
               <Icons/>

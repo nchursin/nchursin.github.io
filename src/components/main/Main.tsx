@@ -1,5 +1,7 @@
 import * as React from 'react';
 
+import Projects from '../projects'
+
 import './Main.css';
 
 class Main extends React.Component {
@@ -7,10 +9,14 @@ class Main extends React.Component {
     return (
       <div className="Main">
         <p className="intro">
-          Hi! I'm Nikita. I'm build Salesforce apps and various open source tools for VSCode and Sublime at <a href="https://www.aquivalabs.com/">Aquiva Labs</a>.
+          <h1>Hi! My name is Nikita</h1>
+          <h2>And I build software</h2>
+          I build Salesforce apps and various open source tools for VSCode and Sublime Text at <a href="https://www.aquivalabs.com/">Aquiva Labs</a>
           <br/>
-          Currently I'm working on <a href="https://github.com/nchursin/prettier-apex">Prettier for Salesforce Apex</a> and <a href="https://github.com/nchursin/chevrotain-apex">Chevrotain-based Apex parser</a>.
+          <br/>
+          You can contact me via email: <a href="mailto:chursinn91@gmail.com">chursinn91@gmail.com</a>
         </p>
+        <Projects />
       </div>
     );
   }
