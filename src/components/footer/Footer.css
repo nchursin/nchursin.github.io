@@ -1,0 +1,17 @@
+.Footer {
+  flex-grow: 1
+}
+
+.Footer .grow {
+  flex-grow: 1
+}
+
+.Footer .github-logo {
+  height: 30px;
+  fill: white;
+  fill: currentColor;
+}
+.Footer .github-logo svg{
+  color: white;
+  fill: currentColor;
+}
