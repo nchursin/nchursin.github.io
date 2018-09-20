@@ -1,3 +1,17 @@
 .Menu {
+  flex-grow: 1
+}
 
+.Menu .grow {
+  flex-grow: 1
+}
+
+.Menu .github-logo {
+  height: 30px;
+  fill: white;
+  fill: currentColor;
+}
+.Menu .github-logo svg{
+  color: white;
+  fill: currentColor;
 }
