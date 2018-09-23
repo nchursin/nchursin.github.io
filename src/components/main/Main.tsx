@@ -8,9 +8,9 @@ class Main extends React.Component {
   public render() {
     return (
       <div className="Main">
+        <h1>Hi! My name is Nikita</h1>
+        <h2>And I build software</h2>
         <p className="intro">
-          <h1>Hi! My name is Nikita</h1>
-          <h2>And I build software</h2>
           I build Salesforce apps and various open source tools for VSCode and Sublime Text at <a href="https://www.aquivalabs.com/">Aquiva Labs</a>
           <br/>
           <br/>
