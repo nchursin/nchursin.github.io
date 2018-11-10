@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './App.css';
 import Menu from './components/menu'
+import Header from './components/header'
 import Main from './components/main'
 import Footer from './components/footer'
 import * as ReactGA from 'react-ga';
@@ -12,7 +13,7 @@ class App extends React.Component {
     return (
       <div className="App" >
         <header className="App-header">
-          <Menu/>
+          <Header/>
         </header>
         <div className="App-body">
           <Main/>
