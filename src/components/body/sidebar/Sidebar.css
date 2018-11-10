@@ -1,0 +1,7 @@
+.Sidebar {
+  margin-left: 5%;
+  margin-right: 5%;
+  align-self: center;
+  display: flex;
+  justify-content: space-around;
+}

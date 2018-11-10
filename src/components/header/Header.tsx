@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactSVG from 'react-svg'
 
-import Menu from '../menu'
+import Menu from './menu'
 
 import blank from '../../assets/svg/blank.svg'
 

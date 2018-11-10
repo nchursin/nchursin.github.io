@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import './Body.css';
 
-import Main from '../main'
+import Main from './main'
 
 class Body extends React.Component {
   public render() {
