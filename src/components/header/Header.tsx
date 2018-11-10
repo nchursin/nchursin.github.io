@@ -16,7 +16,7 @@ class Header extends React.Component {
             <ReactSVG src={blank} />
           </div>
           <div className="menu-container">
-            <Menu/>
+            {/* <Menu/> */}
           </div>
         </div>
         <div className="horizontal-line">
