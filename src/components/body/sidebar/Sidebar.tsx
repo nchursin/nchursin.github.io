@@ -22,7 +22,7 @@ class Sidebar extends React.Component {
           </div>
           <br/>
           <span className="heading">
-            Ongoing projects
+            Opensource projects
           </span>
           <hr className="separator"/>
           <div className="flex-row">
