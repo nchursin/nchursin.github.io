@@ -13,7 +13,11 @@ class Info extends React.Component {
           <ReactSVG src={photo} />
         </div>
         <div className="intro">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          I'm Nikita, nickname &lt;blank&gt;. I'm a Salesforce architect at <a href="https://www.aquivalabs.com/">Aquiva Labs</a> and an open-source enthusiast. I'm experienced in creating architecture for Salesforce application and developing applications for AppExchange. I also making applications in NodeJS and Python. Right now I'm working on a Prettier plugin for Salesforce Apex. APart from developing some stuff both at work and at my free time, I play bass guitar, digging through my huge anti-library, and spending time tih my lovely wife, daughter, and two cats.
+          <p/>
+          I'm planning to master the Salesforce CTA exam next year, and create a blog here where I can share my thoughts on this topic, Salesforce all in all, and maybe other stuff.
+          <p/>
+          You can contact me via email: <a href="mailto:chursinn91@gmail.com">chursinn91@gmail.com</a>
         </div>
       </div>
     );
