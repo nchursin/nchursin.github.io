@@ -2,6 +2,16 @@
   flex-grow: 1
 }
 
-.Icons .grow {
-  flex-grow: 1
+.Icons .svg-icon {
+  height: 20px;
+}
+
+.Icons .svg-icon svg {
+  height: 20px;
+}
+
+.Icons .icon-link {
+  padding: 5px;
+  color: inherit;
+  font-size: inherit;
 }

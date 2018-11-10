@@ -1,16 +1,10 @@
 .Projects {
 }
 
-/* .Projects .paper {
-  background: #fff;
+.Projects li {
+  padding: 0px;
 }
 
-.Projects .text {
-  color: black;
-} */
-
-.Projects .headline {
-  margin-top: 1rem;
-  margin-left: 1rem;
-  color: black;
+.Projects a {
+  color: #00A1E0;
 }

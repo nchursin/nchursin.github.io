@@ -4,16 +4,16 @@ import { List, ListItem } from "@material-ui/core";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 
-// import appArch from "../../assets/png/salesforce/AppArch.png";
-// import sysArch from "../../assets/png/salesforce/SysArch.png";
-// import dev1 from "../../assets/png/salesforce/Dev1.png";
-// import dev2 from "../../assets/png/salesforce/Dev2.png";
-// import idAccessManagement from "../../assets/png/salesforce/IDAccessManagement.png";
-// import integrationDesigner from "../../assets/png/salesforce/ItegrationDesigner.png";
-// import sharingVisibilityDesigner from "../../assets/png/salesforce/SharingVisibilityDesigner.png";
-// import devLifecycleDesigner from "../../assets/png/salesforce/DevLifecycleDesigner.png";
-// import dataArchDesigner from "../../assets/png/salesforce/DataArchAndManagement.png";
-// import appBuilder from "../../assets/png/salesforce/AppBuilder.png";
+// import appArch from "@assets/png/salesforce/AppArch.png";
+// import sysArch from "@assets/png/salesforce/SysArch.png";
+// import dev1 from "@assets/png/salesforce/Dev1.png";
+// import dev2 from "@assets/png/salesforce/Dev2.png";
+// import idAccessManagement from "@assets/png/salesforce/IDAccessManagement.png";
+// import integrationDesigner from "@assets/png/salesforce/ItegrationDesigner.png";
+// import sharingVisibilityDesigner from "@assets/png/salesforce/SharingVisibilityDesigner.png";
+// import devLifecycleDesigner from "@assets/png/salesforce/DevLifecycleDesigner.png";
+// import dataArchDesigner from "@assets/png/salesforce/DataArchAndManagement.png";
+// import appBuilder from "@assets/png/salesforce/AppBuilder.png";
 
 import "./Certs.css";
 

@@ -1,4 +1,10 @@
 .Body {
+  margin-left: 5%;
+  margin-right: 5%;
   align-self: center;
   display: flex;
+}
+
+.Body .sidebar {
+  flex-shrink: 1.15;
 }

@@ -1,9 +1,8 @@
 import * as React from 'react';
 import './App.css';
-import Menu from './components/menu'
-import Header from './components/header'
-import Body from './components/body'
-import Footer from './components/footer'
+import Header from '@components/header'
+import Body from '@components/body'
+import Footer from '@components/footer'
 import * as ReactGA from 'react-ga';
 
 class App extends React.Component {

@@ -4,4 +4,20 @@
   align-self: center;
   display: flex;
   justify-content: space-around;
+  width: max-content;
+}
+
+.Sidebar .separator {
+  width: 100%;
+}
+
+.Sidebar .content {
+  padding-left: 5px;
+}
+
+.Sidebar .heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  align-self: flex-start;
+  padding-right: 5px;
 }

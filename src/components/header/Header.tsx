@@ -3,7 +3,7 @@ import ReactSVG from 'react-svg'
 
 import Menu from './menu'
 
-import blank from '../../assets/svg/blank.svg'
+import blank from '@assets/svg/blank.svg'
 
 import './Header.css';
 

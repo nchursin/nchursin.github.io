@@ -1,6 +1,7 @@
 .Header {
   flex-grow: 1;
   width: 95%;
+  padding-top: 25px;
 }
 
 .Header .flex-header {

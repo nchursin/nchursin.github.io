@@ -1,7 +1,7 @@
 import * as React from 'react';
 import ReactSVG from 'react-svg'
 
-import photo from '../../assets/svg/me.svg'
+import photo from '@assets/svg/me.svg'
 
 import './Main.css';
 
