@@ -1,13 +1,3 @@
 .Main {
   align-self: center;
-  display: flex;
-  justify-content: space-around;
-}
-
-.Main .intro {
-  text-align: left;
-}
-
-.Main .photo {
-  margin-right: 15px;
 }
