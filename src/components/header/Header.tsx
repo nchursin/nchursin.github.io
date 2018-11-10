@@ -1,5 +1,4 @@
 import * as React from 'react';
-
 import ReactSVG from 'react-svg'
 
 import Menu from '../menu'

@@ -1,6 +1,7 @@
 import * as React from 'react';
+import ReactSVG from 'react-svg'
 
-import Projects from '../projects'
+import photo from '../../assets/svg/me.svg'
 
 import './Main.css';
 
@@ -8,17 +9,12 @@ class Main extends React.Component {
   public render() {
     return (
       <div className="Main">
-        <div className="intro">
-          <h1>Hi! My name is Nikita</h1>
-          <h2>And I build software</h2>
+        <div className="photo">
+          <ReactSVG src={photo} />
         </div>
-        <p className="intro">
-          I build Salesforce apps and various open source tools for VSCode and Sublime Text at <a href="https://www.aquivalabs.com/">Aquiva Labs</a>
-          <br/>
-          <br/>
-          You can contact me via email: <a href="mailto:chursinn91@gmail.com">chursinn91@gmail.com</a>
-        </p>
-        <Projects />
+        <div className="intro">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </div>
       </div>
     );
   }
