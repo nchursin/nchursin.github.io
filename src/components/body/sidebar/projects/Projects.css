@@ -5,6 +5,11 @@
   padding: 0px;
 }
 
+.Projects ul {
+  padding: 0px;
+}
+
 .Projects a {
   color: #00A1E0;
+  line-height: 23px;
 }

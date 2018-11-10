@@ -6,7 +6,7 @@ import ReactSVG from 'react-svg'
 
 import github from '@assets/svg/github.svg'
 import linkedin from '@assets/svg/linkedin.svg'
-import stackexchange from '@assets/svg/stackexchange.svg'
+import stackexchange from '@assets/svg/stack3.svg'
 
 import './Icons.css';
 
