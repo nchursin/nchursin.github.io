@@ -5,6 +5,7 @@ import photo from '@assets/svg/me.svg'
 
 import Certs from "./certs";
 import Info from "./info";
+import BoardPass from "./boardpass";
 
 import './Main.css';
 
@@ -14,6 +15,7 @@ class Main extends React.Component {
       <div className="Main">
         <Info/>
         <Certs/>
+        <BoardPass/>
       </div>
     );
   }
