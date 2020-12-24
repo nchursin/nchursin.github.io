@@ -2,9 +2,24 @@ import * as React from "react"
 
 import { Header } from '../components'
 
-const flexColumn = {
+const flex = {
   display: 'flex',
+}
+
+const flexColumn = {
+  ...flex,
   flexFlow: 'column',
+}
+
+const flexRow = {
+  ...flex,
+  flexFlow: 'row',
+}
+
+const content = {
+  ...flexRow,
+  justifyContent: 'flex-start',
+  width: '50%',
 }
 
 const pageStyles = {
@@ -20,7 +35,7 @@ export default ({ children }) => {
   return (
     <main style={pageStyles}>
       <Header/>
-      <div>
+      <div style={content}>
         {children}
       </div>
     </main>
