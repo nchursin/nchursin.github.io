@@ -1,33 +1,19 @@
 import * as React from "react"
 
 import { Header } from '../components'
-
-const flex = {
-  display: 'flex',
-}
-
-const flexColumn = {
-  ...flex,
-  flexFlow: 'column',
-}
-
-const flexRow = {
-  ...flex,
-  flexFlow: 'row',
-}
+import commonStyles from '../styles'
 
 const content = {
-  ...flexRow,
-  justifyContent: 'flex-start',
+  ...commonStyles.flex.rowStart,
   width: '50%',
 }
 
 const pageStyles = {
   color: "#232129",
   padding: "2rem",
-  fontFamily: "-apple-system, Roboto, sans-serif, serif",
-  ...flexColumn,
-  alignItems: 'center',
+  fontFamily: "-apple-system, 'PT Mono', sans-serif, serif",
+  ...commonStyles.flex.column,
+  ...commonStyles.flex.alignItemsCenter
 }
 
 // markup

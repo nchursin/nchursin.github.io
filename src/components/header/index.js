@@ -1,19 +1,17 @@
 import * as React from "react"
 
 import Link from './headerLink'
+import commonStyles from '../../styles'
 
 const headerStyle = {
-  display: 'flex',
-  flexDirection: 'column',
+  ...commonStyles.flex.column,
+  ...commonStyles.flex.alignSelfCenter,
   width: '60%',
-  alignSelf: 'center',
 }
 
 const linksSection = {
-  display: 'flex',
-  flexDirection: 'row',
-  // alignSelf: 'center',
-  justifyContent: 'space-evenly',
+  ...commonStyles.flex.row,
+  ...commonStyles.flex.justifyContentSpaceEvenly,
 }
 
 const separatorStyle = {
