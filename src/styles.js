@@ -64,5 +64,10 @@ export default {
   },
   paddings: {
     marginRight: (marginRight) => ({ marginRight }),
-  }
+    marginTop: (marginTop) => ({ marginTop }),
+  },
+  font: {
+    fontSize: (fontSize) => ({ fontSize }),
+    color: (color) => ({ color }),
+  },
 }

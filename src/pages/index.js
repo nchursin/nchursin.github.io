@@ -115,23 +115,24 @@ const IndexPage = () => {
           }}>
             <MyPhoto style={{
               ...commonStyles.paddings.marginRight('1rem'),
+              ...commonStyles.paddings.marginTop('1rem'),
             }}/>
           </div>
           <div style={{
             ...commonStyles.flex.flex(1.4),
             ...commonStyles.flex.column,
             ...commonStyles.flex.justifyContentSpaceEvenly,
-            color: "#003B84",
+            ...commonStyles.font.color('#003B84'),
           }}>
-            <h1 style={{
-              fontSize: '3em',
-            }}>Hi</h1>
-            <h2 style={{
-              fontSize: '2em',
-            }}>my name is Nikita</h2>
-            <h3 style={{
-              fontSize: '1.5em',
-            }}>and I'm a Salesforce Craftsman</h3>
+            <p style={{
+              ...commonStyles.font.fontSize('2.5em'),
+            }}>Hi</p>
+            <p style={{
+              ...commonStyles.font.fontSize('1.75em'),
+            }}>my name is Nikita</p>
+            <p style={{
+              ...commonStyles.font.fontSize('1.25em'),
+            }}>and I'm a Salesforce Craftsman</p>
           </div>
         </div>
       </div>
