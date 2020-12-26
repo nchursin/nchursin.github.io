@@ -57,8 +57,7 @@ const eventComponent = (evt) => (
 // markup
 export default () => {
   return (
-    <Layout>
-      <title>Speaking</title>
+    <Layout title="Speaking">
       <div style={{
         ...commonStyles.flex.column
       }}>

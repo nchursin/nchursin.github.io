@@ -51,8 +51,7 @@ const projectComponent = (projectData) => (
 // markup
 export default () => {
   return (
-    <Layout>
-      <title>Projects</title>
+    <Layout title="Projects">
       <div style={{
         ...commonStyles.flex.column
       }}>

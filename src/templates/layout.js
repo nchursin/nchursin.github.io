@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import { Helmet } from "react-helmet"
+
 import { Header, Sidebar, Footer } from '../components'
 import commonStyles from '../styles'
 
@@ -17,9 +19,12 @@ const pageStyles = {
 }
 
 // markup
-export default ({ children }) => {
+export default ({ children, title }) => {
   return (
     <span>
+      <Helmet>
+        <title>SalesforceCraft: {title}</title>
+      </Helmet>
       <main style={pageStyles}>
         <Header/>
         <Sidebar/>

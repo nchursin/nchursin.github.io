@@ -106,8 +106,7 @@ const contentStyle = {
 // markup
 const IndexPage = () => {
   return (
-    <Layout>
-      <title>Home Page</title>
+    <Layout title="Home">
       <div style={contentStyle}>
         <div style={{
           ...commonStyles.flex.rowStart,

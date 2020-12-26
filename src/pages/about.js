@@ -15,8 +15,7 @@ const contentStyle = {
 // markup
 export default () => {
   return (
-    <Layout>
-      <title>About</title>
+    <Layout title="About">
       <div style={contentStyle}>
         <div style={{
           ...commonStyles.flex.rowStart,
