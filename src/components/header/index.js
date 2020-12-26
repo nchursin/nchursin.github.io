@@ -24,10 +24,6 @@ const linkStyle = {
   // flex: '1'
 }
 
-const isActive = () => {
-
-}
-
 const links = [
   {
     to: '/',
@@ -54,7 +50,6 @@ const links = [
 // markup
 const Header = () => {
   const url = typeof window !== 'undefined' ? window.location.pathname : '';
-  console.log('url >> ', url);
 
   return (
     <div style={headerStyle}>
