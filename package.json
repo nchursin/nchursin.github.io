@@ -8,9 +8,9 @@
     "gatsby"
   ],
   "scripts": {
-    "develop": "gatsby develop && cp CNAME public/CNAME",
+    "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build && cp CNAME public/CNAME",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "predeploy": "yarn build",
