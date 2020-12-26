@@ -22,16 +22,37 @@ const linkStyle = {
   // flex: '1'
 }
 
+const links = [
+  {
+    to: '/',
+    title: 'Home',
+  },
+  {
+    to: '/about/',
+    title: 'About',
+  },
+  {
+    to: 'https://salesforcecraft.medium.com/',
+    title: 'Blog',
+  },
+  {
+    to: '/speaking/',
+    title: 'Speaking',
+  },
+  {
+    to: '/projects/',
+    title: 'Projects',
+  },
+]
+
 // markup
 const Header = () => {
   return (
     <div style={headerStyle}>
       <div style={linksSection}>
-        <Link style={linkStyle} to="/" title="Home" />
-        <Link style={linkStyle} to="/about/" title="About" />
-        <Link style={linkStyle} to="https://salesforcecraft.medium.com/" title="Blog" />
-        <Link style={linkStyle} to="/speaking/" title="Speaking" />
-        <Link style={linkStyle} to="/projects/" title="Projects" />
+        {links.map((link) => (
+          <Link style={linkStyle} to={link.to} title={link.title} />
+        ))}
       </div>
       <div style={separatorStyle}>
         <hr/>
