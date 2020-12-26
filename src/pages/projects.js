@@ -30,7 +30,7 @@ const projects = [
       Apex's HttpCallout Mock. What I see is everyone try to come up with their own
       mock server functionality. So I decided to create a lib for everyone to use :)
     `,
-    url: null,
+    url: 'https://github.com/nchursin/sfcraft-mock-server',
   },
 ]
 
