@@ -36,7 +36,7 @@ export default () => {
           }}>
             <p>
               I work as a fullstack developer at Deutsche Bank. By “fullstack” I mean
-              I do requirements analysis, development, testing automation, production
+              I do requirements analysis, development, test automation, production
               delivery and support. And it happened to be that my main expertise is
               Salesforce.
             </p>
