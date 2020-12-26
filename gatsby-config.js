@@ -36,5 +36,6 @@ module.exports = {
           username: `@salesforcecraft`,
         },
       },
+      `gatsby-plugin-twitter`,
     ]
 }

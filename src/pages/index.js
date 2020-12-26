@@ -1,5 +1,7 @@
 import * as React from "react"
 
+import { Timeline } from 'react-twitter-widgets'
+
 import { Layout } from '../templates'
 import { MyPhoto, Medium } from '../components'
 import commonStyles from '../styles'
@@ -135,6 +137,16 @@ const IndexPage = () => {
             }}>and I'm a Salesforce Craftsman</p>
           </div>
         </div>
+
+        <Timeline
+          dataSource={{
+            sourceType: 'profile',
+            screenName: 'NChursinSF'
+          }}
+          options={{
+            height: '500'
+          }}
+        />
       </div>
     </Layout>
   )
