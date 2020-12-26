@@ -36,6 +36,7 @@ const links = [
   {
     to: 'https://salesforcecraft.medium.com/',
     title: 'Blog',
+    external: true,
   },
   {
     to: '/speaking/',
@@ -47,6 +48,7 @@ const links = [
   },
 ]
 
+
 // markup
 const Header = () => {
   let url = typeof window !== 'undefined' ? window.location.pathname : ''
@@ -56,7 +58,7 @@ const Header = () => {
     <div style={headerStyle}>
       <div className="links" style={linksSection}>
         {links.map((link) => (
-          <Link style={linkStyle} to={link.to} title={link.title} active={url === link.to} />
+          <Link style={linkStyle} to={link.to} title={link.title} active={url === link.to} external={link.external}/>
         ))}
       </div>
       <div style={separatorStyle}>

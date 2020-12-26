@@ -14,7 +14,13 @@ const activeLink = {
 const HeaderLink = (props) => {
   return (
     <span style={{...linkStyle, ...props.style, ...(props.active ? activeLink : {})}}>
-      <Link to={props.to}>{props.title}</Link>
+      {
+        props.external
+        ?
+          <a href={props.to} target="_blank">{props.title}</a>
+        :
+          <Link to={props.to}>{props.title}</Link>
+      }
     </span>
   )
 }
