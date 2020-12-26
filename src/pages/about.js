@@ -49,7 +49,7 @@ export default () => {
           working code. I also share the values expressed in Manifesto for Software Craftsmanship.
         </p>
         <p>
-          Since I started with Saelsforce in 2013, that has been my primary technology.
+          Since I started with Salesforce in 2013, that has been my primary technology.
           I worked in different roles along the way from a developer to solution architect.
           I feel like the architects, who don’t touch code can’t be really responsible for solutioning.
           You have to understand the development to be able to design a deliverable solution.
