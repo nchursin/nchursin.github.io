@@ -3,6 +3,8 @@ import * as React from "react"
 import Link from './headerLink'
 import commonStyles from '../../styles'
 
+import './styles.css'
+
 const headerStyle = {
   ...commonStyles.flex.column,
   ...commonStyles.flex.alignSelfCenter,
@@ -20,6 +22,10 @@ const separatorStyle = {
 
 const linkStyle = {
   // flex: '1'
+}
+
+const isActive = () => {
+
 }
 
 const links = [
@@ -47,11 +53,14 @@ const links = [
 
 // markup
 const Header = () => {
+  const url = typeof window !== 'undefined' ? window.location.pathname : '';
+  console.log('url >> ', url);
+
   return (
     <div style={headerStyle}>
-      <div style={linksSection}>
+      <div className="links" style={linksSection}>
         {links.map((link) => (
-          <Link style={linkStyle} to={link.to} title={link.title} />
+          <Link style={linkStyle} to={link.to} title={link.title} active={url === link.to} />
         ))}
       </div>
       <div style={separatorStyle}>
