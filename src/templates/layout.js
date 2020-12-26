@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { Header, Sidebar } from '../components'
+import { Header, Sidebar, Footer } from '../components'
 import commonStyles from '../styles'
 
 const content = {
@@ -19,12 +19,22 @@ const pageStyles = {
 // markup
 export default ({ children }) => {
   return (
-    <main style={pageStyles}>
-      <Header/>
-      <Sidebar/>
-      <div style={content}>
-        {children}
-      </div>
-    </main>
+    <span>
+      <main style={pageStyles}>
+        <Header/>
+        <Sidebar/>
+        <div style={content}>
+          {children}
+        </div>
+
+      </main>
+      <footer style={{
+        position: 'absolute',
+        bottom: '0',
+        width: '100%',
+      }}>
+        <Footer/>
+      </footer>
+    </span>
   )
 }
