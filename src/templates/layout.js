@@ -1,6 +1,6 @@
 import * as React from "react"
 
-import { Header } from '../components'
+import { Header, Sidebar } from '../components'
 import commonStyles from '../styles'
 
 const content = {
@@ -21,6 +21,7 @@ export default ({ children }) => {
   return (
     <main style={pageStyles}>
       <Header/>
+      <Sidebar/>
       <div style={content}>
         {children}
       </div>

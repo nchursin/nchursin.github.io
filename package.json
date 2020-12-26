@@ -16,6 +16,7 @@
   },
   "license": "0BSD",
   "dependencies": {
+    "classnames": "^2.2.6",
     "gatsby": "^2.26.1",
     "gatsby-image": "^2.8.0",
     "gatsby-plugin-react-helmet": "^3.7.0",
