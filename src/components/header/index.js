@@ -49,7 +49,8 @@ const links = [
 
 // markup
 const Header = () => {
-  const url = typeof window !== 'undefined' ? window.location.pathname : '';
+  let url = typeof window !== 'undefined' ? window.location.pathname : ''
+  url = url || '/'
 
   return (
     <div style={headerStyle}>
