@@ -3,10 +3,25 @@ import * as React from "react"
 import YouTube from 'react-youtube'
 
 import { Layout } from '../templates'
+import { Image } from '../components'
 import commonStyles from '../styles'
 
 const events = [
   {
+    key: 'lc21',
+    title: 'Injecting Quality: How To Prevent Defects During Development',
+    description: `
+      London’s Calling is the largest community-led event for Salesforce
+      professionals with over 400 in-person attendees and 8000 virtual attendees.
+
+      I've spoken about how we implement XP and BDD for Salesforce development
+      to prevent defects in our team at Deutsche Bank Tech Centre.
+    `,
+    language: 'English',
+    preview: 'talks/lc21.png',
+  },
+  {
+    key: 'msk1',
     title: 'Salesforce DevOps: Joy At Release',
     description: `
       One of the first events at Moscow Community
@@ -27,8 +42,20 @@ const videoOpts = {
   },
 }
 
+const preview = (evt) => {
+  if (evt.videoId) {
+    return <YouTube videoId={evt.videoId} opts={videoOpts} />
+  } else if (evt.preview) {
+    return (
+      <div style={{ minWidth: `25rem` }}>
+        <Image filename={evt.preview} />
+      </div>
+    )
+  }
+}
+
 const eventComponent = (evt) => (
-  <div style={{
+  <div key={evt.key} style={{
     ...commonStyles.flex.column
   }}>
     <h2>{evt.title}</h2>
@@ -39,15 +66,15 @@ const eventComponent = (evt) => (
         ...commonStyles.flex.flex('1'),
         ...commonStyles.paddings.marginRight('2rem')
       }}>
-        <YouTube videoId={evt.videoId} opts={videoOpts} />
+        {preview(evt)}
       </div>
       <p style={{
         ...commonStyles.flex.flex('5')
       }}>
         {evt.description}
-        <p>
-          <i>Language: {evt.language}</i>
-        </p>
+        <br/>
+        <br/>
+        <i>Language: {evt.language}</i>
       </p>
     </div>
     <p/>
