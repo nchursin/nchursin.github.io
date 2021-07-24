@@ -18,7 +18,7 @@ const events = [
       to prevent defects in our team at Deutsche Bank Tech Centre.
     `,
     language: 'English',
-    preview: 'talks/lc21.png',
+    videoId: 'NRpjSGvwqjU',
   },
   {
     key: 'msk1',
