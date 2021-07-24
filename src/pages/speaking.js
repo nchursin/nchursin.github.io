@@ -8,13 +8,26 @@ import commonStyles from '../styles'
 
 const events = [
   {
+    key: 'techlead21',
+    title: 'Quality Injection: How We Stopped Looking For Defects',
+    description: `
+      TechLead Conf is a Russian conference dedicated to engineering
+      practices and processes.
+
+      I've spoken about how we implemented XP and BDD
+      to prevent defects in our team at Deutsche Bank Tech Centre.
+    `,
+    language: 'Russian',
+    videoId: 'U0LTKfkmFhg',
+  },
+  {
     key: 'lc21',
     title: 'Injecting Quality: How To Prevent Defects During Development',
     description: `
       London’s Calling is the largest community-led event for Salesforce
       professionals with over 400 in-person attendees and 8000 virtual attendees.
 
-      I've spoken about how we implement XP and BDD for Salesforce development
+      I've spoken about how we implemented XP and BDD for Salesforce development
       to prevent defects in our team at Deutsche Bank Tech Centre.
     `,
     language: 'English',
