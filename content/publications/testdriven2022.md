@@ -5,7 +5,6 @@ pubtype: "Доклад"
 featured: false
 description: "В этом докладе я рассказываю, как мы избавлялись от моргающих тестов."
 tags: [ "testing", "flaky tests" ]
-image: "/img/testdriven2022.png"
 link: "https://www.youtube.com/watch?v=rQUWn1M0u1c"
 weight: 400
 sitemap:

@@ -5,7 +5,6 @@ pubtype: "Доклад"
 featured: true
 description: "В этом докладе я рассказываю о процессах в нашей команде, основанных на XP + BDD."
 tags: [ "BDD", "XP", "Agile", "team" ]
-image: "/img/techlead2021.png"
 link: "https://www.youtube.com/watch?v=U0LTKfkmFhg"
 weight: 400
 sitemap:
