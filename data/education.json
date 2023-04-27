@@ -1,0 +1,20 @@
+[
+    {
+        "school":"[MIREA – Russian Technological University](https://www.mirea.ru/)",
+        "degree":"Master of Computer Science",
+        "major":"System and Program Engineering",
+        "range":"2013 - 2015"
+    },
+    {
+        "school":"[MIREA – Russian Technological University](https://www.mirea.ru/)",
+        "degree":"Bachelor of Engineering",
+        "major":"Instrumentation",
+        "range":"2009 - 2013"
+    },
+    {
+        "school":"[MIREA – Centre of teeaching foreign languages](https://www.mirea.ru/about/the-structure-of-the-university/educational-scientific-structural-unit/institute-of-further-education/centre-of-teaching-foreign-languages-coe/)",
+        "degree":"Translator of technical texts",
+        "major":"English",
+        "range":"2009 - 2010"
+    }
+]

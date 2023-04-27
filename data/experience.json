@@ -1,0 +1,20 @@
+[
+    {
+        "role":"Team Leader",
+        "company":"Deutsche Bank",
+        "summary":"Led development of Financial Supply Chain onboarding solution. Helped teams to adopt XP and BDD.\n\nAccomplishments:\n- Helped team to adopt role-less structure: no devs or QA specialists, everyone does everything. We practiced pair programming, TDD, BDD, ATDD. ALl the tests were fully automated. Achieved the result of 1 defect in 6 months.\n- Built a whole new team with the same role-less structure. We succesfully engaged with an ongoing project, increased its quality, decresed time to market, and built productive relationships with business team.\n- Increased productivity of the whole Salesforce development department by introducing Linux machine for development.\n- Presented our processes on several conferences: DUMP, TechLead Conf, Podlodka TechLead Crew, TestDriven Conf.\n- Did a bank wide training for technical speicalists on Git tips & tricks.\n- Created a Jest-based declarative testing framework for frontend.\n\n Tech stack: Salesforce (Apex, lwc), Bash, TeamCity, Java (test framework), JavaScript",
+        "range":"May 2020 - May 2023"
+    },
+    {
+        "role":"Senior Software Engineer/Salesforce Architect/Salesforce Architect",
+        "company":"Aquiva Labs",
+        "summary":"My responsibilities were leading multiple teams, as well as architecturing solutions on Salesforce platform.\n\nAccomplishments:\n- Created and led Support Team for project that are out of active development phase.\n- Created a new team for small fast-paced project. Mainly package development for Salesforce Appexchange.\n- Designed and implemented performance review procedure in the company, based on individual goals and plans.\n- Introduced code culture and standards in the company.\n- Did several internal talks on Agile and Salesforce development.\n- Acted as a team coach for several teams and boosted their productivity.",
+        "range":"August 2016 - March 2020"
+    },
+    {
+        "role":"Software Engineer/Scrum Master",
+        "company":"Hotbot.ai",
+        "summary":"I helped the team to adopt Lean and Agile ways of software development. I also took part as a developer in the MVP of Hotbot.\n\nAccomplishments:\n- Implemented automated deployment and CI/CD processes using Docker, Docker Compose, and TeamCity.\n- Configure monitoring and notifications using Zabbix.\n- Built a friendly atmosphere in the team and helped them to be more responsive to changes.",
+        "range":"September 2017 - December 2018"
+    }
+]

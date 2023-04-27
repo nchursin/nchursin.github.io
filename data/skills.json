@@ -1,0 +1,25 @@
+[
+  {
+      "grouping":"Languages, Operating Systems & Tools",
+      "skills":[ "Salesforce", "Go", "Javascript", "Typescript", "git", "macos", "linux", "bash" ]
+  },
+  {
+      "grouping":"Data Management",
+      "skills":[
+        "MongoDB"
+      ]
+  },
+  {
+    "grouping":"Containers & Cloud",
+      "skills":[
+          {"name":"Docker","link":"https://docker.com"},
+          {"name":"Salesforce","link":"https://www.salesforce.com/"},
+          {"name":"Google Cloud","link":"https://cloud.google.com"},
+          {"name":"Linux","link":"https://bosh.io"}
+      ]
+  },
+  {
+      "grouping":"Soft-skills & methodologies",
+      "skills":[ "Agile", "Extreme Programming (TDD, pair prodgramming, CI/CD)", "Scrum", "Team leading", "Conducting 1-2-1", "BDD/ATDD" ]
+  }
+]
