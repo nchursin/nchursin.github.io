@@ -1,25 +1,25 @@
 [
   {
-      "grouping":"Languages, Operating Systems & Tools",
-      "skills":[ "Salesforce", "Go", "Javascript", "Typescript", "git", "macos", "linux", "bash" ]
+      "grouping":"Языки, Операционные Системы и Инструменты",
+      "skills":[ "Salesforce", "Go", "Javascript", "Typescript", "TeamCity", "git", "macos", "linux", "bash" ]
   },
   {
-      "grouping":"Data Management",
+      "grouping":"Управление Данными",
       "skills":[
-        "MongoDB"
+        "MongoDB",
+        "Redis"
       ]
   },
   {
-    "grouping":"Containers & Cloud",
+    "grouping":"Контейнеры и облака",
       "skills":[
           {"name":"Docker","link":"https://docker.com"},
           {"name":"Salesforce","link":"https://www.salesforce.com/"},
-          {"name":"Google Cloud","link":"https://cloud.google.com"},
           {"name":"Linux","link":"https://bosh.io"}
       ]
   },
   {
-      "grouping":"Soft-skills & methodologies",
-      "skills":[ "Agile", "Extreme Programming (TDD, pair prodgramming, CI/CD)", "Scrum", "Team leading", "Conducting 1-2-1", "BDD/ATDD" ]
+      "grouping":"Софт-скиллы",
+      "skills":[ "Здравый смысл", "Agile", "Extreme Programming (TDD, pair prodgramming, CI/CD)", "Scrum", "Team leading", "Проведение 1-2-1", "BDD/ATDD" ]
   }
 ]
