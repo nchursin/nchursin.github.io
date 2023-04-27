@@ -1,6 +1,6 @@
 ---
 title: "How to use aliases in VSCode extension development"
-date: 2022-05-27
+date: 2020-12-08
 pubtype: "Статья [EN]"
 featured: true
 description: "Статья рассказывает, как подключить алиасы в Typescript при разработке плагинов для VSCode."
