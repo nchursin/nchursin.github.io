@@ -1,10 +1,10 @@
 ---
-title: "Главное — не моргай! Как мы избавлялись от flaky-тестов (Just don't blink! How we got rid of flaky-tests)."
+title: "Главное — не моргай! Как мы избавлялись от flaky-тестов."
 date: 2022-06-27
-pubtype: "Talk"
+pubtype: "Доклад"
 featured: false
-description: "This is a talk where I describe how we got rid of flaky tests."
-tags: [ "testing", "falky tests" ]
+description: "В этом докладе я рассказываю, как мы избавлялись от моргающих тестов."
+tags: [ "testing", "flaky tests" ]
 image: "/img/testdriven2022.png"
 link: "https://www.youtube.com/watch?v=rQUWn1M0u1c"
 weight: 400

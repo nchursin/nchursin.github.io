@@ -1,5 +1,5 @@
 ---
-title: "Projects"
+title: "Проекты"
 sitemap:
   priority : 0.9
 ---

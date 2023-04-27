@@ -1,5 +1,5 @@
 ---
-title: Open Source Contributions
+title: Open Source
 date: 2020-01-07T16:49:15.046Z
 link: NA
 image: /img/marketplace-summary.webp
@@ -17,6 +17,4 @@ This page represents the landing page for "contributions" section. It is also sh
 
 -->
 
-
-
-<p>A collection of efforts to which I contributed, but did not create.</p>
+Проекты, в которых я принимал участие, но созданные другими людьми.

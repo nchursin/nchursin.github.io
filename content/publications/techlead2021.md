@@ -1,9 +1,9 @@
 ---
-title: "Инъекция качества: как мы перестали искать дефекты (Injecting Quality: How we stopped looking for defects)."
+title: "Инъекция качества: как мы перестали искать дефекты."
 date: 2021-06-30
-pubtype: "Talk"
+pubtype: "Доклад"
 featured: true
-description: "This is a talk where I describe our development processes: XP, BDD, ATDD."
+description: "В этом докладе я рассказываю о процессах в нашей команде, основанных на XP + BDD."
 tags: [ "BDD", "XP", "Agile", "team" ]
 image: "/img/techlead2021.png"
 link: "https://www.youtube.com/watch?v=U0LTKfkmFhg"

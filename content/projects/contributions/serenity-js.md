@@ -2,7 +2,7 @@
 title: "Serenity/JS"
 link: "https://serenity-js.org"
 image: "https://serenity-js.org/images/serenity-js-logo-for-light-backgrounds.svg"
-description: "Started Playwright integration development and suggested the current API for Serenity/JS 3."
+description: "Начал разрабатывать интеграцию с Playwright, а так же предложил структуру API, которая теперь используется в Serenity/JS 3.0."
 featured: true
 tags: [ "Testing", "Typescript" ]
 weight: 100
@@ -10,4 +10,4 @@ sitemap:
     priority : 0.8
 ---
 
-I initiated the playwright integration development. Unfortunately I had to drop the project, but Jan (author of Serenity/JS) picked it up and finished the build.
+Я начал разработку интеграции с Playwright. Так же при общении с Яном предложил ему API, которое в результате и стало основным для Serenity/JS 3.0. К сожалению, был вынужден покинуть проект.
