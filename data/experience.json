@@ -1,20 +1,20 @@
 [
     {
-        "role":"Team Leader",
+        "role":"Руководитель группы разработки (Salesforce)",
         "company":"Deutsche Bank",
-        "summary":"Led development of Financial Supply Chain onboarding solution. Helped teams to adopt XP and BDD.\n\nAccomplishments:\n- Helped team to adopt role-less structure: no devs or QA specialists, everyone does everything. We practiced pair programming, TDD, BDD, ATDD. ALl the tests were fully automated. Achieved the result of 1 defect in 6 months.\n- Built a whole new team with the same role-less structure. We succesfully engaged with an ongoing project, increased its quality, decresed time to market, and built productive relationships with business team.\n- Increased productivity of the whole Salesforce development department by introducing Linux machine for development.\n- Presented our processes on several conferences: DUMP, TechLead Conf, Podlodka TechLead Crew, TestDriven Conf.\n- Did a bank wide training for technical speicalists on Git tips & tricks.\n- Created a Jest-based declarative testing framework for frontend.\n\n Tech stack: Salesforce (Apex, lwc), Bash, TeamCity, Java (test framework), JavaScript",
+        "summary":"Возглавлял команду разработки решения для сбора документов поставщиков для принятив программы торгового финансирования, а также управления программами торгового финансирования. Помогал командам работать по методолгиям жкстремального программирования и BDD.\n\nДостижения:\n- Помогал команде адаптироваться к отсутствию ролей: никаких разработчиков, аналитиков или тестировщиков — все могут делать всё. Мы использовали парное программирование, TDD, BDD, ATDD. Все тесты были автоматизированы, автоматизация разрабатывалась до функциональности. Удалось достичь результата в 1 баг за полгода.\n- Построил ещё одну, новую, команду в такйо же парадигме отсутствия ролей. Новая команда успешно приняла проект от другой команды, повысила качество выпускаемого продукта, снизила время поставок и построила продуктивные отнощения с командой бизнеса.\n- Повысил продуктивность всей Salesforce практики, внедрив использование машин на Linux'е для разработки.\n- Выступил на нескольких конференциях: DUMP, TechLead Conf, Podlodka TechLead Crew, TestDriven Conf.\n- Провеёл тренинг на внутреннем собтии для всех техцентров по продвинутому использованию Git.\n- Сделал фреймворк для декларативных тестов фронтэнда на основе Jest.\n\n Stack: Salesforce (Apex, lwc), Bash, TeamCity, Java (test framework), JavaScript, RHEL 7",
         "range":"May 2020 - May 2023"
     },
     {
-        "role":"Senior Software Engineer/Salesforce Architect/Salesforce Architect",
+        "role":"Старший разработчик/Архитектор Salesforce",
         "company":"Aquiva Labs",
-        "summary":"My responsibilities were leading multiple teams, as well as architecturing solutions on Salesforce platform.\n\nAccomplishments:\n- Created and led Support Team for project that are out of active development phase.\n- Created a new team for small fast-paced project. Mainly package development for Salesforce Appexchange.\n- Designed and implemented performance review procedure in the company, based on individual goals and plans.\n- Introduced code culture and standards in the company.\n- Did several internal talks on Agile and Salesforce development.\n- Acted as a team coach for several teams and boosted their productivity.",
+        "summary":"В мои обязанности входило управление несколькими командами, а так же разработка архитектуры решений на платформе Salesforce.\n\nДостижения:\n- Создал и первоначально возглавлял команду глобальной поддержки проектов, вышедших из активной фазы разработки. Успещно подготовил нового лидера команды и передеал дела.\n- Создал команду для срочных быстро-разрабатываемых проектов. В основном это были пакеты для Salesforce Appexchange.\n- Разработал и начал внедрение процедуры оценки сотрудников на основе индивидуальных целей, планов развития и обратной связи.\n- Возглавил разработку и внедрение стандартов написания кода в компании.\n- Провёл несколько внутренних тренингов по Salesforce и гибким методологиям разработки.\n- Выступил в роли Agile коача для нескольких команд, повысив их продуктивность.",
         "range":"August 2016 - March 2020"
     },
     {
-        "role":"Software Engineer/Scrum Master",
+        "role":"Разработчик/Scrum Мастер",
         "company":"Hotbot.ai",
-        "summary":"I helped the team to adopt Lean and Agile ways of software development. I also took part as a developer in the MVP of Hotbot.\n\nAccomplishments:\n- Implemented automated deployment and CI/CD processes using Docker, Docker Compose, and TeamCity.\n- Configure monitoring and notifications using Zabbix.\n- Built a friendly atmosphere in the team and helped them to be more responsive to changes.",
+        "summary":"Помогал команде адаптироваться к Lean и Agile разработке. Также принимал участие в создании MVP в качестве разработчика.\n\nДостижения:\n- Настроил автоматизированную развёртку и CI/CD, используя Docker, Docker Compose, и TeamCity.\n- Настроил мониторинг и соотвутствующие нотфикации с помощью Zabbix.\n- Построил рабочую атмосферу в команде, помога адаптироваться к быстрому развитию и постоянным изменениям.",
         "range":"September 2017 - December 2018"
     }
 ]
