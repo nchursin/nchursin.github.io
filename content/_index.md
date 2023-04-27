@@ -9,4 +9,4 @@ outputs:
 - rss
 - json
 ---
-Software Engineer focused on solving problems and delivering business value. Extreme Programming & BDD practicioner. Conference speaker, mentor, former Leader of RU Salesforce Community, former Salesforce RAD Women Coach.
+Инженер-программист, в первую очередь решающий проблемы бизнеса. Практик экстремального программирования и BDD. Спикер, ментор, лидер Российского сообщества специалистов Salesforce, RAD Women Coach.

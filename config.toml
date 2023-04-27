@@ -1,4 +1,4 @@
-title = 'Nikita Chursin'
+title = 'Никита Чурсин'
 baseURL = 'https://chursin.dev'
 theme = 'resume'
 languageCode = "en-us"
@@ -8,11 +8,11 @@ PygmentsStyle = "monokai"
 enableGitInfo = false
 
 [params]
-address = "Moscow, Russia"
+address = "Москва, Россия"
 email = "nchursin.dev@gmail.com"
 favicon = "/favicon.ico"
-firstName = "Nikita"
-lastName = "Chursin"
+firstName = "Никита"
+lastName = "Чурсин"
 phone = "+7 (916) 811-34-92"
 profileImage = "img/me.png"
 showEducation = true
