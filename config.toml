@@ -16,6 +16,7 @@ lastName = "Чурсин"
 phone = "+7 (916) 811-34-92"
 profileImage = "img/me.png"
 showEducation = true
+showBlog = true
 showExperience = true
 showOpenSource = true
 showProjects = true
