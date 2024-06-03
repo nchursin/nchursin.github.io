@@ -149,3 +149,8 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+.card-img-top {
+    width: 150px;
+    height: 150px;
+}
