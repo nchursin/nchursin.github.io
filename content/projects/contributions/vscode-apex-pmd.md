@@ -6,7 +6,7 @@ description: "Поддерживал проект, когда автор вре�
 featured: true
 tags: [ "Salesforce", "Apex", "VSCode", "Typescript", "plugin", "IDE" ]
 weight: 120
-sitemap: 
+sitemap:
     priority : 0.5
 ---
 
