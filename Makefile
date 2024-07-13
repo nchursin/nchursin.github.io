@@ -1,4 +1,4 @@
-default: clean build zip deploy
+default: deploy
 
 clean:
 	rm -rf public public.zip
@@ -9,7 +9,7 @@ build:
 zip:
 	zip -r public.zip public
 
-deploy: clean build  zip
+deploy: clean build zip
 	./deploy.sh
 
 watch:
