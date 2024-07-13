@@ -9,7 +9,7 @@ build:
 zip:
 	zip -r public.zip public
 
-deploy:
+deploy: clean build  zip
 	./deploy.sh
 
 watch:
