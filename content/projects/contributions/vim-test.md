@@ -5,8 +5,8 @@ image: "https://opengraph.githubassets.com/32b03af6407d69062b01045bac4c35740ded2
 description: "Добавил поддержку конфигурации WebdriverIO на Typescript"
 featured: true
 tags: [ "Testing", "Typescript", "vim", "vimscript" ]
-weight: 100
-sitemap: 
+weight: 110
+sitemap:
     priority : 0.8
 ---
 

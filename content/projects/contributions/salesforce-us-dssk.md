@@ -5,8 +5,8 @@ image: "https://camo.githubusercontent.com/8b72943b9cd5e0b5988f53a1d3c22486e43dc
 description: "Добавил возможность следить за изменениями в общей папки с моковыми данными."
 featured: false
 tags: [ "Testing", "Typescript" ]
-weight: 100
-sitemap: 
+weight: 130
+sitemap:
     priority : 0.8
 ---
 
