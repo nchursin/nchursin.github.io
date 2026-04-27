@@ -7,9 +7,13 @@
   <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{else}}{{ .Description }}{{ end }}">
 
   {{ $preview_image := .Resources.GetMatch "site_preview" }}
+  {{ $first_image := index (.Resources.ByType "image") 0 }}
   {{if $preview_image }}
     <meta property="og:image" content="{{ $preview_image.Permalink }}" />
     <meta property="og:title" content="{{ $preview_image.Title }}" />
+  {{ else if $first_image }}
+    <meta property="og:image" content="{{ $first_image.Permalink }}" />
+    <meta property="og:title" content="{{ .Site.Title }} | {{ .Title }}" />
   {{ else }}
     <meta property="og:image" content="{{ .Site.Params.profileImage | absURL }}" />
     <meta property="og:title" content="{{ .Site.Title }} | {{ .Title }}" />
