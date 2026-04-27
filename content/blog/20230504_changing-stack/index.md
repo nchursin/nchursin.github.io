@@ -1,7 +1,7 @@
 ---
 title: 'Смена стека: Salesforce -> Go'
 date: Thu, 04 May 2023 11:00:00 +0000
-featured: true
+featured: false
 draft: false
 tags: [salesforce, go, career ]
 ---
