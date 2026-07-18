@@ -23,6 +23,7 @@ showProjects = true
 showPublications = true
 showQr = true
 showSkills = true
+showTrainings = true
 
 [params.google]
 

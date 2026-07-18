@@ -1,0 +1,9 @@
+{{ define "main" }}
+{{ partial "breadcrumbs" . }}
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <article class="my-auto" id="trainings-content">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  </article>
+</section>
+{{ end }}

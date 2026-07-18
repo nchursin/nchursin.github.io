@@ -18,6 +18,11 @@
             <a class="nav-link js-scroll-trigger" href="/#skills">Навыки</a>
           </li>
       {{ end }}
+      {{ if .Site.Params.showTrainings }}
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="/#trainings">Тренинги</a>
+          </li>
+      {{ end }}
       {{ if .Site.Params.showProjects }}
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="/#projects">Проекты</a>
