@@ -1,7 +1,7 @@
 ---
 title: 'Зачем нужны тесты? Часть 2: Бизнес'
 date: Thu, 09 Jan 2025 11:00:00 +0000
-featured: true
+featured: false
 draft: false
 tags: [testing, test-design-for-devs]
 ---
