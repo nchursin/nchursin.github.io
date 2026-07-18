@@ -38,6 +38,11 @@ name = "LinkedIn"
 link = "https://github.com/nchursin/"
 name = "GitHub"
 
+[[params.handles]]
+link = "https://t.me/i_am_a_dev"
+name = "Telegram-канал"
+icon = "telegram"
+
 # [[params.handles]]
 # link = "https://bitbucket.org/eddiewebb/"
 # name = "Bitbucket"
